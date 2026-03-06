@@ -1,3 +1,7 @@
+// Anagram - An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, 
+// using all the original letters exactly once.
+
+
 const s = "anagram"
 const t = "nagaram"
 
@@ -16,10 +20,7 @@ var isAnagram = function(s, t) {
         char_count2[ch] = (char_count2[ch] || 0) + 1
 
     }
-    console.log(char_count1)
-
     for(const ch in char_count1 ){
-        console.log(char_count1[ch] , char_count2[ch])
         if(char_count1[ch] !== char_count2[ch]){
              return false
         } 
