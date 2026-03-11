@@ -2,7 +2,7 @@
 //leetcode questioin 345 
 var reverseVowels = function(s) {
     const vowels = "aeiouAEIOU";
-    const arr = s.split(""); /// converting sting to array 
+    const arr = s.split(""); // converting sting to array 
 
     let left = 0;
     let right = s.length - 1;
