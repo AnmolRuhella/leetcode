@@ -8,4 +8,6 @@ var thirdMax = function(nums) {
         return unique[2]
     }
     return unique[0];
+
+    
 };
