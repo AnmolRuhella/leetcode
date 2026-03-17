@@ -19,3 +19,15 @@ var pivotIndex = function(nums) {
 
     return -1;
 };
+
+// prefix sum technique -
+// Using Mathematical Notation:
+// Let the original array be: arr[] = [a0, a1, a2, ..., an-i].
+// The prefix sum array is: prefix[i] = a0 + a1 + a2 + ... + ai
+
+// So,
+
+// prefix[0] = arr[0]
+// prefix[1] = arr[0] + arr[1]
+// prefix[2] = arr[0] + arr[1] + arr[2]
+// ... 
