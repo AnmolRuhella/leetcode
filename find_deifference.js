@@ -20,3 +20,18 @@ var findTheDifference = function(s, t) {
     }
 
 };
+
+
+//2nd approach of solving this question 
+
+
+var findTheDifference = function(s, t) {
+    const sortOne = s.split("").sort();
+    const sortTwo = t.split("").sort();
+
+    for(let i = 0; i < sortTwo.length; i++){
+        if(sortTwo[i] !== sortOne[i]){
+            return sortTwo[i];
+        }
+    }
+};
