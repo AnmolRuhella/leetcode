@@ -11,3 +11,5 @@ var canWinNim = function(n) {
     return true 
     
 };
+
+//Difficult question 
