@@ -13,6 +13,7 @@ fn()
 // because here fn = sayName()
 // it is directly called sayName 
 // but if we called object.sayName()
+// output : anmol 
 
 const object2 = {
   key : "anmol",
