@@ -22,7 +22,7 @@ const object2 = {
   }
 }
 
-const fn2 = object.sayName
+const fn2 = object2.sayName
 fn2()
 
 // basically here i am also get undefined because arrow function hasn;t this so that why 
