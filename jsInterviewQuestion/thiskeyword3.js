@@ -14,5 +14,9 @@ const obj = {
 const result1 = obj.getMultiplied([1,2,3])
 const result2 = obj.getMultiplied2([1,2,3])
 
+console.log(result1)
+console.log(result2)
+
+
 
 //output : [NAN , NAN , NAN ] , [9,9,9 ]
